@@ -1,0 +1,199 @@
+<svg viewBox="0 0 900 170" width="900" height="170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050018"/>
+      <stop offset="100%" stop-color="#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FF0055"/>
+      <stop offset="16%"  stop-color="#FF8800"/>
+      <stop offset="33%"  stop-color="#FFD700"/>
+      <stop offset="50%"  stop-color="#00FF88"/>
+      <stop offset="66%"  stop-color="#0099FF"/>
+      <stop offset="83%"  stop-color="#AA00FF"/>
+      <stop offset="100%" stop-color="#FF0055"/>
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#006600"/>
+      <stop offset="30%"  stop-color="#00CC00"/>
+      <stop offset="70%"  stop-color="#00AA00"/>
+      <stop offset="100%" stop-color="#005500"/>
+    </linearGradient>
+    <linearGradient id="pipeHead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#007700"/>
+      <stop offset="30%"  stop-color="#00EE00"/>
+      <stop offset="70%"  stop-color="#00CC00"/>
+      <stop offset="100%" stop-color="#006600"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="starGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── SKY ── -->
+  <rect width="900" height="170" fill="url(#sky)"/>
+
+  <!-- ── STARS (dots) ── -->
+  <circle cx="30"  cy="18" r="1.5" fill="#FFD700" opacity="0.9"/>
+  <circle cx="80"  cy="42" r="1"   fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="140" cy="12" r="2"   fill="#FFD700" opacity="0.7"/>
+  <circle cx="220" cy="33" r="1"   fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="320" cy="9"  r="1.5" fill="#FFD700" opacity="0.8"/>
+  <circle cx="400" cy="48" r="1"   fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="490" cy="18" r="2"   fill="#FFD700" opacity="0.9"/>
+  <circle cx="560" cy="38" r="1"   fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="650" cy="12" r="1.5" fill="#FFD700" opacity="0.7"/>
+  <circle cx="720" cy="32" r="1"   fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="800" cy="22" r="2"   fill="#FFD700" opacity="0.8"/>
+  <circle cx="860" cy="45" r="1"   fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="110" cy="68" r="1"   fill="#FFD700" opacity="0.6"/>
+  <circle cx="270" cy="58" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="460" cy="72" r="1"   fill="#FFD700" opacity="0.8"/>
+  <circle cx="620" cy="62" r="1.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="780" cy="68" r="1"   fill="#FFD700" opacity="0.7"/>
+  <circle cx="55"  cy="88" r="1"   fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="370" cy="82" r="1.5" fill="#FFD700" opacity="0.6"/>
+  <circle cx="540" cy="92" r="1"   fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="710" cy="86" r="1.5" fill="#FFD700" opacity="0.5"/>
+  <circle cx="880" cy="80" r="1"   fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- ── CROSS SPARKLES ── -->
+  <polygon points="55,22  56.5,27 55,32  53.5,27" fill="#FFD700" opacity="0.9"/>
+  <polygon points="50,27  55,28.5 60,27  55,25.5" fill="#FFD700" opacity="0.9"/>
+
+  <polygon points="380,14 381.5,19 380,24 378.5,19" fill="#FFFFFF" opacity="0.8"/>
+  <polygon points="375,19 380,20.5 385,19 380,17.5" fill="#FFFFFF" opacity="0.8"/>
+
+  <polygon points="720,16 721.5,21 720,26 718.5,21" fill="#FFD700" opacity="0.9"/>
+  <polygon points="715,21 720,22.5 725,21 720,19.5" fill="#FFD700" opacity="0.9"/>
+
+  <!-- ── RAINBOW TEXT ── -->
+  <text x="450" y="52" text-anchor="middle"
+        fill="url(#rainbow)"
+        font-family="'Courier New', Courier, monospace"
+        font-size="24" font-weight="bold" letter-spacing="3"
+        filter="url(#glow)">&#x2605; STARMAN ZONE &#x2605;</text>
+
+  <!-- ── PIPE LEFT ── -->
+  <!-- head -->
+  <rect x="55"  y="100" width="56" height="12" fill="url(#pipeHead)" rx="3"/>
+  <rect x="58"  y="102" width="50" height="6"  fill="#00EE00" opacity="0.4"/>
+  <!-- body -->
+  <rect x="62"  y="112" width="42" height="26" fill="url(#pipeGrad)"/>
+  <rect x="65"  y="112" width="12" height="26" fill="#00CC00" opacity="0.3"/>
+
+  <!-- ── QUESTION BLOCK ── -->
+  <rect x="270" y="72"  width="32" height="32" fill="#CC8800" rx="2"/>
+  <rect x="272" y="74"  width="28" height="28" fill="#FFAA00"/>
+  <rect x="272" y="74"  width="28" height="6"  fill="#FFDD55"/>
+  <rect x="272" y="74"  width="4"  height="28" fill="#FFDD55"/>
+  <text x="286" y="95" text-anchor="middle"
+        fill="#7A3B00" font-family="Arial Black, sans-serif"
+        font-size="18" font-weight="900">?</text>
+
+  <!-- coin above ? block -->
+  <ellipse cx="286" cy="60" rx="9"  ry="10" fill="#FFD700"/>
+  <ellipse cx="286" cy="60" rx="7"  ry="8"  fill="#FFE95E"/>
+  <ellipse cx="283" cy="57" rx="2.5" ry="3" fill="#FFFAAA" opacity="0.7"/>
+
+  <!-- ── FLOATING BRICK PLATFORM ── -->
+  <rect x="530" y="78"  width="30" height="30" fill="#9B4A00" rx="1"/>
+  <rect x="532" y="80"  width="26" height="26" fill="#B85C00"/>
+  <rect x="532" y="80"  width="26" height="4"  fill="#CC7A22"/>
+  <rect x="532" y="80"  width="4"  height="26" fill="#CC7A22"/>
+  <rect x="560" y="78"  width="30" height="30" fill="#9B4A00" rx="1"/>
+  <rect x="562" y="80"  width="26" height="26" fill="#B85C00"/>
+  <rect x="562" y="80"  width="26" height="4"  fill="#CC7A22"/>
+  <rect x="562" y="80"  width="4"  height="26" fill="#CC7A22"/>
+  <rect x="590" y="78"  width="30" height="30" fill="#9B4A00" rx="1"/>
+  <rect x="592" y="80"  width="26" height="26" fill="#B85C00"/>
+  <rect x="592" y="80"  width="26" height="4"  fill="#CC7A22"/>
+  <rect x="592" y="80"  width="4"  height="26" fill="#CC7A22"/>
+
+  <!-- ── STARMAN (classic 5-point star with face) ── -->
+  <polygon points="450,62 455.9,79.5 474.5,79.5 460,90.1 465.9,107.6 450,97 434.1,107.6 440,90.1 425.5,79.5 444.1,79.5"
+           fill="#FFD700" stroke="#FF8800" stroke-width="1.5" filter="url(#starGlow)"/>
+  <ellipse cx="444" cy="82" rx="4" ry="4" fill="#FFFFFF" opacity="0.5"/>
+  <!-- eyes -->
+  <rect x="440" y="86" width="5" height="5" fill="#2a1a00" rx="1"/>
+  <rect x="451" y="86" width="5" height="5" fill="#2a1a00" rx="1"/>
+  <!-- smile -->
+  <rect x="441" y="94" width="14" height="3" fill="#2a1a00" rx="1"/>
+  <rect x="442" y="97" width="12" height="2" fill="#2a1a00" rx="1"/>
+
+  <!-- ── PIPE RIGHT ── -->
+  <rect x="790" y="80"  width="56" height="12" fill="url(#pipeHead)" rx="3"/>
+  <rect x="793" y="82"  width="50" height="6"  fill="#00EE00" opacity="0.4"/>
+  <rect x="797" y="92"  width="42" height="46" fill="url(#pipeGrad)"/>
+  <rect x="800" y="92"  width="12" height="46" fill="#00CC00" opacity="0.3"/>
+
+  <!-- ── MARIO (pixel art, running pose) ── -->
+  <!-- unit = 5px, starting at x=170, y=78 -->
+  <!-- hat -->
+  <rect x="180" y="78"  width="25" height="5"  fill="#CC0000"/>
+  <rect x="175" y="83"  width="35" height="5"  fill="#CC0000"/>
+  <!-- face -->
+  <rect x="175" y="88"  width="35" height="5"  fill="#FFB347"/>
+  <!-- eyes -->
+  <rect x="179" y="89"  width="4"  height="3"  fill="#1a0a2e"/>
+  <rect x="189" y="89"  width="4"  height="3"  fill="#1a0a2e"/>
+  <!-- mustache -->
+  <rect x="178" y="93"  width="20" height="3"  fill="#7A3B00"/>
+  <!-- shirt -->
+  <rect x="175" y="96"  width="35" height="8"  fill="#CC0000"/>
+  <!-- overalls -->
+  <rect x="170" y="104" width="45" height="10" fill="#3333CC"/>
+  <rect x="175" y="104" width="35" height="8"  fill="#CC0000"/>
+  <!-- legs -->
+  <rect x="170" y="114" width="17" height="8"  fill="#3333CC"/>
+  <rect x="193" y="114" width="17" height="8"  fill="#3333CC"/>
+  <!-- shoes -->
+  <rect x="167" y="121" width="20" height="6"  fill="#5C2E00"/>
+  <rect x="188" y="121" width="20" height="6"  fill="#5C2E00"/>
+  <!-- arm raised -->
+  <rect x="210" y="96"  width="10" height="5"  fill="#FFB347"/>
+  <rect x="218" y="91"  width="8"  height="8"  fill="#FFB347"/>
+
+  <!-- ── GROUND (brick row) ── -->
+  <rect x="0"   y="136" width="900" height="34" fill="#7A3B00"/>
+  <!-- mortar horizontal -->
+  <rect x="0"   y="150" width="900" height="2"  fill="#5C2E00"/>
+  <!-- mortar vertical row 1 -->
+  <rect x="32"  y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="96"  y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="160" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="224" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="288" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="352" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="416" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="480" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="544" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="608" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="672" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="736" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="800" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <rect x="864" y="136" width="2"   height="14" fill="#5C2E00"/>
+  <!-- mortar vertical row 2 (offset) -->
+  <rect x="16"  y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="80"  y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="144" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="208" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="272" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="336" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="400" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="464" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="528" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="592" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="656" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="720" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="784" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <rect x="848" y="152" width="2"   height="18" fill="#5C2E00"/>
+  <!-- brick highlights -->
+  <rect x="0"   y="136" width="900" height="3"  fill="#9B5200" opacity="0.5"/>
+
+</svg>
