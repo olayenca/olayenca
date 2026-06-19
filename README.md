@@ -14,6 +14,22 @@
 
 ---
 
+## 👤 About Me
+
+<div align="center">
+
+| | |
+|---|---|
+| **Name** | Olayinka Otuniyi |
+| **Role** | Senior Software Engineer |
+| **Company** | [Elsevier](https://www.elsevier.com) |
+
+![](https://img.shields.io/badge/Elsevier-Senior_Software_Engineer-FF69B4?style=for-the-badge&labelColor=E24B26&color=1A1A2E)
+
+</div>
+
+---
+
 ## 📋 POKÉDEX ENTRY
 
 <table>
