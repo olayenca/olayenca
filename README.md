@@ -79,7 +79,7 @@
 **🌊 Water — Database**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
 
 **🔥 Fire — Tools & DevOps**
 
@@ -106,13 +106,13 @@
 
 ---
 
-## ⭐ STARMAN ZONE — CONTRIBUTIONS
+## 🎵 Contributions
 
 <div align="center">
 
-![Mario Starman Banner](./mario-banner.svg)
+![Jigglypuff Card Banner](./jigglypuff-banner.svg)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=olayenca&bg_color=1a0a2e&color=FFD700&line=FF69B4&point=FFD700&area_color=FF1493&area=true&hide_border=false&custom_title=⭐%20Starman%20Activity%20Graph%20⭐&title_color=FFD700" alt="Activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=olayenca&bg_color=1a0a2e&color=FFD700&line=FF69B4&point=FFD700&area_color=FF1493&area=true&hide_border=false&custom_title=🎵%20Jigglypuff%27s%20Contribution%20Song%20🎵&title_color=FFD700" alt="Activity graph"/>
 
 </div>
 
